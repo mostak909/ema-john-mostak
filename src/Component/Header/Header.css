@@ -1,22 +1,90 @@
-.header img{
-    height: 80px;
+body{
+    margin: 0;
+    padding: 0;
 }
 .header{
-    text-align: center;
-}
-.header nav{
     background-color: black;
+}
+.header-main1{
+    display: flex;
+    color: white;
+    padding: 10px;
+    height: 60px;
+}
+.header-sub1{
+    width: 5%;
+}
+.header-sub1 img{
+    width: 60px;
+}
+.header-sub2{
+    width: 12%;
+}
+.header-sub2 img{
+    width: 120px;
+    margin-top: 8px;
+}
+.header-sub3{
+    width: 55%;
+}
+.header-sub3 input{
+    width: 720px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.header-sub4{
+    width: 5%;
+}
+.header-sub5{
+    width: 10%;
+}
+.header-sub5 span{
+    font-weight: bold;
+}
+.header-sub6{
+    width: 8%;
+}
+.header-sub6 span{
+    font-weight: bold;
+}
+.header-sub7{
+    width: 5%;
+}
+.header-sub7 img{
+    width: 80px;
+}
+/* header-main2 Area*/
+.header-main2{
+    display: flex;
+    color: white;
+    height: 45px;
+    padding: 5px;
+}
+.header-sub2-1{
+    width: 17%;
+    font-weight: bold;
+    padding: 10px;
+}
+.header-sub2-2{
+    width: 55%;
+}
+.header-sub2-3{
+    width: 28%;
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+}
+/* Nav bar area */
+.header nav{
     line-height: 40px;
     font-size: 20;
-
 }
-
 nav a{
     text-decoration: none;
     color: white;
     margin-right: 25px;
     padding: 6px;
-
 }
 nav a:hover{
     background-color: white;
@@ -28,5 +96,4 @@ nav input{
 }
 nav button{
     height: 20px;
-
 }
